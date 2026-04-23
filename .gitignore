@@ -53,3 +53,33 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Flipper Zero SDK
+.ufbt/
+dist/
+firmware/
+*.fap
+*.bin
+*.dfu
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Personal notes
+notes.md
+scratch.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+
+# Arduino / ESP32
+*.ino.elf
+*.ino.bin
+build/
